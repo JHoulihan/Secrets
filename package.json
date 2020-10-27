@@ -1,12 +1,12 @@
 {
   "name": "secrets",
   "version": "1.0.0",
-  "description": "",
+  "description": "Authentication",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "JHoulihan",
   "license": "ISC",
   "dependencies": {
     "bcrypt": "^4.0.1",
@@ -21,5 +21,18 @@
     "passport": "^0.4.1",
     "passport-local": "^1.0.0",
     "passport-local-mongoose": "^6.0.1"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JPFreely/Secrets.git"
+  },
+  "keywords": [
+    "regain",
+    "pacakge-lock.json"
+  ],
+  "bugs": {
+    "url": "https://github.com/JPFreely/Secrets/issues"
+  },
+  "homepage": "https://github.com/JPFreely/Secrets#readme"
 }
